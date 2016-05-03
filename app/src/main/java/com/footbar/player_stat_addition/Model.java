@@ -19,7 +19,7 @@ public class Model implements AsyncHttpObserver {
 
     public Model(Controller controller){
         this.controller = controller;
-
+        System.out.println("model");
     }
 
     @Override
