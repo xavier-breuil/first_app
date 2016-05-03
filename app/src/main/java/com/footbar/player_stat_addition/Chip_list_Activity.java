@@ -25,6 +25,7 @@ public class Chip_list_Activity extends AppCompatActivity implements View.OnClic
         setContentView(R.layout.activity_chip_list_);
         this.controller = new Controller(this);
         this.online_data_url = "https://playerbackend.footbar.com/playerslist/";
+        System.out.println("view");
 
         //add the spinners to the spinner list
         this.meteor_spinner_list = new ArrayList<Spinner>();
