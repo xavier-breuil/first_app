@@ -25,7 +25,6 @@ public class Chip_list_Activity extends AppCompatActivity implements View.OnClic
         setContentView(R.layout.activity_chip_list_);
         this.controller = new Controller(this);
         this.online_data_url = "https://playerbackend.footbar.com/playerslist/";
-        System.out.println("view");
 
         //add the spinners to the spinner list
         this.meteor_spinner_list = new ArrayList<Spinner>();
@@ -53,6 +52,7 @@ public class Chip_list_Activity extends AppCompatActivity implements View.OnClic
     }
 
     public void display_initial_player_list(){
+        System.out.println("display init players");
         ArrayList<ArrayList<String>> list_of_list_of_meteors = new ArrayList<ArrayList<String>>();// = new ArrayList<String> (Arrays.asList(player_names));
         for (int i = 1; i < 11; i++) {
             list_of_list_of_meteors.add(0, new ArrayList<String>());

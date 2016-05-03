@@ -11,7 +11,6 @@ public class Controller {
     public Controller(Chip_list_Activity chip_list_activity){
         this.chip_list_activity = chip_list_activity;
         this.model              = new Model(this);
-        System.out.println("controller");
     }
 
     public void set_chip_list_activity(Chip_list_Activity chip_list_activity){
