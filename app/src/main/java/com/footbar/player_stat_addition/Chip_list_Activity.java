@@ -21,6 +21,7 @@ public class Chip_list_Activity extends AppCompatActivity implements View.OnClic
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("view");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chip_list_);
         this.controller = new Controller(this);
